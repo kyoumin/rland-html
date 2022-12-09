@@ -1,0 +1,39 @@
+.icon{
+    /* text */
+    overflow: hidden;
+    text-indent: -999px;
+    /* layout */
+    box-sizing: border-box;
+    background-size: 16px 16px;
+
+    /* item-layout */
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    background-color: black;
+}
+
+.icon-menu{
+
+    mask-image: url(../image/admin/icon-menu.svg);
+    -webkit-mask-image:url(../image/admin/icon-menu.svg);
+}
+
+
+/* --------------util -----------------*/
+/*우선순위가 더높아야 하는 util----*/
+
+
+.icon-white{
+    background-color: white;
+
+}
+
+.icon-black{
+    background-color: black;
+}
+
+
